@@ -17,27 +17,27 @@ InternetAwareAI is a sophisticated language model that combines the power of lar
 
 1. Clone the repository:
    ```bash
-git clone https://github.com/yourusername/InternetAwareAI.git
-cd InternetAwareAI
-```
+    git clone https://github.com/yourusername/InternetAwareAI.git
+    cd InternetAwareAI
+    ```
 2. Create and activate a virtual environment:
    ```bash
-python -m venv venv
-source venv/bin/activate  
-# On Windows, use venv\Scripts\activate
-```
+    python -m venv venv
+    source venv/bin/activate  
+    # On Windows, use venv\Scripts\activate
+    ```
 
 3. Install the required packages:
    ```bash
-pip install -r requirements.txt
-```
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 
 To run the application:
    ```bash
-chainlit run GUI.py -w
-```
+    chainlit run GUI.py -w
+    ```
 This will start the Chainlit server, and you can interact with the AI through your web browser.
 
 ## 💪 Thanks to all Wonderful Contributors
