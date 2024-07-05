@@ -17,7 +17,7 @@ InternetAwareAI is a sophisticated language model that combines the power of lar
 
 1. Clone the repository:
    ```bash
-    git clone https://github.com/yourusername/InternetAwareAI.git
+    git clone https://github.com/A-Akhil/InternetAwareAI.git
     cd InternetAwareAI
     ```
 2. Create and activate a virtual environment:
