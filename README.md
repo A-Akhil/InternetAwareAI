@@ -38,6 +38,7 @@ To run the application:
    ```bash
     chainlit run GUI.py -w
     ```
+
 This will start the Chainlit server, and you can interact with the AI through your web browser.
 
 ## 💪 Thanks to all Wonderful Contributors
