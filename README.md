@@ -41,11 +41,14 @@ chainlit run GUI.py -w
 
 This will start the Chainlit server, and you can interact with the AI through your web browser.
 
+
 ## 💪 Thanks to all Wonderful Contributors
 
-<a href="https://github.com/A-Akhil/InternetAwareAI/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=A-Akhil/InternetAwareAI" />
-</a>
+Thanks a lot for spending your time helping this InternetAwareAI grow.
+Thanks a lot! Keep rocking 🍻
+
+[![Contributors](https://contrib.rocks/image?repo=A-Akhil/internetAwareAI)](https://github.com/A-Akhil/internetAwareAI/graphs/contributors)
+
 
 ## License
 
