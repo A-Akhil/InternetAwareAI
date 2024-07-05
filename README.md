@@ -35,9 +35,9 @@ InternetAwareAI is a sophisticated language model that combines the power of lar
 ## Usage
 
 To run the application:
-   ```bash
-    chainlit run GUI.py -w
-    ```
+```bash
+chainlit run GUI.py -w
+```
 
 This will start the Chainlit server, and you can interact with the AI through your web browser.
 
