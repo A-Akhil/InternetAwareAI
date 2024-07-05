@@ -1,17 +1,14 @@
-# GUI.py
-import os
-from langchain.chains import LLMChain
+# # GUI.py
 import chainlit as cl
 from server import inputprocess
 
-# Define the factory function to create the LLMChain
-def factory(query):
-    llm_chain = inputprocess(query)
-    return llm_chain
-
-# Define the on_message callback
 @cl.on_message
-async def on_message(message):
-    llm_chain = factory(message)  # Pass 'message' as the query
-    response = llm_chain({"input": message})
-    await cl.send_message(response)
+async def on_message(message: cl.Message):
+    # Extract the content of the message
+    query = message.content
+    
+    # Process the query
+    response = inputprocess(query)
+    
+    # Send the response back
+    await cl.Message(content=response).send()
