@@ -15,6 +15,7 @@ def inputprocess(query: str):
 
     system_prompt = """You are given a user's query. If the query pertains to information that you do not have access to 
     or asking something which is a realtime data which you dont have access to, respond with string 'search_query' only nothing else. 
+    even if you dont have access to realtime data just return the string 'search_query' and never say i don't know if you don't know reply as 'search_query'
     Otherwise, provide an answer based on your existing knowledge only if you are sure that you know about it."""
 
     prompt = ChatPromptTemplate.from_messages(
